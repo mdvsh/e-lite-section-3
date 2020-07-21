@@ -20,17 +20,17 @@ ul {
 
 .square {
   background: #fff;
-  border: 1px solid #999;
+  border: 1px solid #2c3e50;
   float: left;
-  font-size: 24px;
+  font-size: 48px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 68px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 68px;
 }
 
 .square:focus {
@@ -48,4 +48,12 @@ ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+.moves-item-bold {
+  font-weight: bold;
+}
+
+.square.win {
+  background: #2ecc71;
 }
