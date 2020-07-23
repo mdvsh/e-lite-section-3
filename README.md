@@ -6,4 +6,5 @@ Web Development Week 3: ReactJS
 - [Tic-Tac-Toe | ReactJS Tutorial](https://ex1-reactjs.vercel.app/)
 
 ## Exercise 2
-- [A simple app which takes in a GitHub username and fetches all of the user’s repositories.](https://ex2-reactjs.shaktimaan.vercel.app/)
+- [A simple app which takes in a GitHub username and fetches all of the user’s repositories.](https://ex2-reactjs.vercel.app)
+
