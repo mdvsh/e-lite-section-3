@@ -1,0 +1,66 @@
+.card {
+    position: relative;
+    width: 20rem;
+    margin: auto;
+}
+
+.profile-data {
+    background: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.profile-data img {
+    width: 8em;
+    height: 8rem;
+    border-radius: 50%;
+    display: inline;
+    box-shadow: 0 0 0.0625rem rgba(0, 0, 0, 0.5);
+}
+
+.profile-data h2 a {
+    font-size: 1.6rem;
+    color: #2368bd;
+    text-decoration: none;
+}
+
+.profile-data h3 {
+    font-size: 1.2rem;
+    color: #bdcbce;
+}
+
+.error {
+    background: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.error h2 {
+    font-size: 2rem;
+    color: #d63031;
+    margin-bottom: 1rem;
+}
+
+.error .profile-data p {
+    font-size: 1rem;
+    color: #333333;
+}
+
+.search input {
+    margin: 8px 0;
+    width: 100%;
+    padding: 15px 0;
+    text-indent: 20px;
+    border: 2px solid #eaeaef;
+    border-radius: 2px;
+    color: #888888;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.search input[type="search"]:active,
+.search input[type="search"]:focus {
+    border-color: #2977f5;
+}

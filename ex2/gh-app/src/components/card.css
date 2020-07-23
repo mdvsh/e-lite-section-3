@@ -1,0 +1,86 @@
+/* Card design inspiraion from: https://codepen.io/codyogden/pen/yvLpWo? */
+
+.repo-card {
+    display: flex;
+    overflow: hidden;
+    border: 1px solid rgba(153, 153, 153, 0.4);
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #FFF;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 85%;
+}
+
+.repo-card .repo-card-content {
+    flex: 1 1 auto;
+    padding: 0 1em;
+    box-sizing: border-box;
+    background-color: #FFF;
+    font-size: 1rem;
+}
+
+.repo-card .repo-card-content a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.repo-card .repo-card-footer {
+    box-sizing: border-box;
+    flex: 0 0 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.repo-card .repo-card-footer .repo-link {
+    text-decoration: none;
+    color: transparent;
+}
+
+.repo-card .repo-card-footer .repo-link:after {
+    display: block;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    content: '';
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    transform: rotate(45deg);
+    transition: all 300ms linear;
+    opacity: 0;
+    left: -40%;
+}
+
+.repo-card:hover .repo-link:after {
+    left: 30%;
+    opacity: 1;
+    transform: rotate(45deg) translate(0px, 0px);
+}
+
+@media screen and (max-width: 600px) {
+    .repo-card {
+        display: block;
+    }
+
+    .repo-card .card-header {
+        display: block;
+        height: 120px;
+    }
+
+    .repo-card .repo-card-footer {
+        display: block;
+        padding-bottom: 20px;
+        text-align: right;
+        margin: 0 20px;
+    }
+
+    .repo-card .repo-card-footer .repo-link {
+        text-decoration: none;
+        color: blue;
+    }
+
+    .repo-card .repo-card-footer .repo-link:after {
+        display: none;
+    }
+}
