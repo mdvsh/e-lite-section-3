@@ -1,4 +1,5 @@
 # e-lite-section-3
+
 Web Development Week 3: ReactJS
 
 ## Exercise 1
@@ -6,9 +7,11 @@ Web Development Week 3: ReactJS
 - [Tic-Tac-Toe | ReactJS Tutorial](https://ex1-reactjs.vercel.app/)
 
 ## Exercise 2
+
 - [A simple app which takes in a GitHub username and fetches all of the user’s repositories.](https://ex2-reactjs.vercel.app)
 
 ## Exercise 3
+
 - [A weather app](https://weatherapp-reactjs.vercel.app/)
   - Data from [OpenWeather's OneCall API](https://openweathermap.org/api/one-call-api)
   - Icons from [ReactIcons](https://react-icons.github.io/react-icons/)
